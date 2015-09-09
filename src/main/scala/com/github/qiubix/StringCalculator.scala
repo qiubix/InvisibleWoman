@@ -4,7 +4,7 @@ object StringCalculator {
 
   def add(numbers : String) : Integer = {
     if (numbers.isEmpty) 0
-    else 1
+    else numbers.toInt
   }
 
 }

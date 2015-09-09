@@ -12,4 +12,8 @@ class StringCalculatorTest extends FlatSpec with Matchers {
     StringCalculator.add("1") should be (1)
   }
 
+  "String calculator" should "return 2 for a string with single two" in {
+    StringCalculator.add("2") should be (2)
+  }
+
 }
