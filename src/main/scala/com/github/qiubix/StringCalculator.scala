@@ -2,6 +2,9 @@ package com.github.qiubix
 
 object StringCalculator {
 
-  def add(numbers : String) : Integer = 0
+  def add(numbers : String) : Integer = {
+    if (numbers.isEmpty) 0
+    else 1
+  }
 
 }

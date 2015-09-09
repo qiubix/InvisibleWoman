@@ -8,4 +8,8 @@ class StringCalculatorTest extends FlatSpec with Matchers {
     StringCalculator.add("") should be (0)
   }
 
+  "String calculator" should "return 1 for a string with single one" in {
+    StringCalculator.add("1") should be (1)
+  }
+
 }
