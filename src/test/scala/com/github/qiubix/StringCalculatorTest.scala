@@ -20,4 +20,8 @@ class StringCalculatorTest extends FlatSpec with Matchers {
     StringCalculator.add("1,1") should be (2)
   }
 
+  "String calculator" should "return 5 for a string with two different digits" in {
+    StringCalculator.add("2,3") should be (5)
+  }
+
 }
